@@ -37,13 +37,24 @@ function numberOfCharacters(string) {
         found = true
         break
       }
-      // otra opción en lugar del for del objeto: if(objeto.hasOwnProperty(string[i]))
     }
     if (!found) {
       objeto[string[i]] = 1
     }
   }
   return objeto
+
+  // otra opción:
+
+  // var objeto = {}
+  // for (i = 0; i < string.length; i++) {
+  //   if(objeto.hasOwnProperty(string[i])) {
+  //     objeto[string[i]]++
+  //   } else {
+  //     objeto[string[i]] = 1
+  //   }
+  // }
+  // return objeto
 }
 
 
