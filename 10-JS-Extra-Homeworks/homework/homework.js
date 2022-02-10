@@ -48,7 +48,7 @@ function numberOfCharacters(string) {
 
   // var objeto = {}
   // for (i = 0; i < string.length; i++) {
-  //   if(objeto.hasOwnProperty(string[i])) {
+  //   if (objeto.hasOwnProperty(string[i])) {
   //     objeto[string[i]]++
   //   } else {
   //     objeto[string[i]] = 1
@@ -56,7 +56,6 @@ function numberOfCharacters(string) {
   // }
   // return objeto
 }
-
 
 function capToFront(s) {
   //Realiza una función que reciba como parámetro un string y mueva todas las letras mayúsculas
